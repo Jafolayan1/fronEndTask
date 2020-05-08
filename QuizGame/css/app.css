@@ -90,3 +90,20 @@ form {
     flex-direction: column;
     align-items: center;
 }
+
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    border-bottom: 1px solid silver;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+}
+
+.dev {
+    color: rgb(59, 51, 51);
+    padding: 5px;
+}
