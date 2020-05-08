@@ -1,0 +1,94 @@
+@media (max-width:576px) {
+     :root {
+        background-color: rgb(184, 123, 143);
+    }
+    .h1 {
+        font-size: 2.8rem;
+        color: rgb(138, 140, 248);
+        margin-bottom: 2px;
+        font-weight: bold;
+    }
+    .btn {
+        font-size: 1.2rem;
+        width: 7rem;
+        border: none;
+        border-radius: 7px;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        text-decoration: none;
+        padding: 2px;
+        color: rgb(32, 33, 36);
+        background-color: rgb(138, 140, 248);
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: rgb(154, 160, 166);
+        box-shadow: 0 0.4rem 1.5rem 0 rgba(58, 95, 114, 0.5);
+    }
+    .choice-container {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 90%;
+        font-size: 1rem;
+        background-color: rgb(184, 123, 143);
+    }
+    .choice-prefix {
+        background-color: rgb(45, 46, 53);
+        color: rgb(175, 173, 173);
+        padding: 5px;
+        width: 30px;
+        margin-right: 5px;
+    }
+    .choice-text {
+        padding: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 90%;
+    }
+    h2 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: rgb(138, 140, 248);
+        margin-bottom: 5px;
+        padding-top: 20px;
+    }
+    #hud {
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+    .hud-prefix {
+        text-align: right;
+        font-size: 1.5rem;
+        color: rgb(138, 140, 248);
+        margin-right: 15px;
+    }
+    .hud-main-text {
+        text-align: center;
+    }
+    .correct {
+        background-color: #28a745;
+        color: white;
+    }
+    .incorrect {
+        background-color: #dc3545;
+        color: white;
+    }
+    input {
+        margin-bottom: 1rem;
+        width: 10rem;
+        padding: 7px;
+        font-size: 1.2rem;
+        border: none;
+        box-shadow: 0 0.1rem 1.4rem 0 rgbargba(58, 95, 114, 0.5);
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 8px;
+    }
+    .h11 {
+        font-size: 2.5rem;
+    }
+}
+
+@media(min-width:992px) {}

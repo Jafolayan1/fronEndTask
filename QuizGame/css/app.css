@@ -1,0 +1,92 @@
+@media(width:default) {}
+
+:root {
+    background-color: rgb(32, 33, 36);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1px;
+}
+
+.h1 {
+    font-size: 4.8rem;
+    color: rgb(138, 140, 248);
+    margin-bottom: 2px;
+}
+
+h1 {
+    color: rgb(138, 140, 248);
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(138, 140, 248);
+    margin-bottom: 30px;
+}
+
+h1>span {
+    font-size: 2.5px;
+    font-weight: 500;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-size: 1.8rem;
+    width: 10rem;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: rgb(32, 33, 36);
+    background-color: rgb(138, 140, 248);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(154, 160, 166);
+    box-shadow: 0 0.4rem 1.5rem 0 rgba(58, 95, 114, 0.5);
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 15rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgbargba(58, 95, 114, 0.5);
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+form {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
